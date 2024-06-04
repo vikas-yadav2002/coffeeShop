@@ -2,11 +2,11 @@
 body {
     margin: 0;
     font-family: Poppins ;
-    background-color: #f3e5ab; /* Light brown coffee color */
+    background-color: #f3e5ab; 
 }
 
 header {
-    background-color: #4b2e14; /* Darker brown color */
+    background-color: #4b2e14; 
     color: #fff;
     padding: 10px 0;
 }

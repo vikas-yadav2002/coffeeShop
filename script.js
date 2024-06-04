@@ -138,30 +138,30 @@ showSlide(currentSlide);
 
 
 
-// Get the modal elements
+
 const signInModal = document.getElementById('signInModal');
 const signUpModal = document.getElementById('signUpModal');
 
-// Get the button that opens the modals
+
 const signInBtn = document.querySelector('a[href="#signin"]');
 const signUpBtn = document.querySelector('a[href="#signup"]');
 
-// Get the <span> element that closes the modals
+
 const closeSpans = document.querySelectorAll('.close');
 
-// When the user clicks the sign-in button, open the sign-in modal
+
 signInBtn.addEventListener('click', function(event) {
-  event.preventDefault(); // Prevent the default link behavior
+  event.preventDefault(); 
   signInModal.style.display = 'block';
 });
 
-// When the user clicks the sign-up button, open the sign-up modal
+
 signUpBtn.addEventListener('click', function(event) {
-  event.preventDefault(); // Prevent the default link behavior
+  event.preventDefault(); 
   signUpModal.style.display = 'block';
 });
 
-// When the user clicks the close button, close the modal
+
 closeSpans.forEach(function(span) {
   span.addEventListener('click', function() {
     signInModal.style.display = 'none';
@@ -169,7 +169,7 @@ closeSpans.forEach(function(span) {
   });
 });
 
-// When the user clicks anywhere outside of the modal, close it
+
 window.addEventListener('click', function(event) {
   if (event.target == signInModal || event.target == signUpModal) {
     signInModal.style.display = 'none';
