@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee4All</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Coffee4All</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#signin">Sign In</a></li>
+          <li><a href="#signup">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <!-- Sign In Modal -->
+<div class="modal" id="signInModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Sign In</h2>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Sign Up Modal -->
+  <div class="modal" id="signUpModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Coffee4All</h1>
+      <p>Enjoy the best coffee in town with a cozy atmosphere and great company.</p>
+      <a href="#join" class="btn">Join the Fun</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A cup of coffee">
+    </div>
+   
+  </section>
+  <section class="heading">
+    <span class="line"></span>
+    <h2>Our Delicious Drinks</h2>
+    <span class="line"></span>
+</section>
+  <section class="drinks">
+    
+    <div class="card-container">
+      
+    </div>
+  </section>
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="slider">
+      <div class="slide active">
+        <div class="feedback">
+          <p>I absolutely love this coffee shop! The atmosphere is cozy and inviting, and the coffee is simply delicious. The staff is always friendly and welcoming. It's my go-to spot for a perfect coffee break.</p>
+          <span class="username">- Jane Doe</span>
+        </div>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="feedback">
+          <p>Coffee4All is my favorite place to work remotely. The ambiance is perfect for focused work, and the variety of drinks and snacks keeps me energized throughout the day. Highly recommended!</p>
+          <span class="username">- John Smith</span>
+        </div>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="feedback">
+          <p>I love the cozy atmosphere and the delicious coffee at Coffee4All. The baristas are always so friendly and knowledgeable about the different blends. It's my go-to spot for a relaxing break from work.</p>
+          <span class="username">- Emily Wilson</span>
+        </div>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="feedback">
+          <p>Coffee4All is a hidden gem in the city. Their seasonal drinks are always a delight, and the cozy seating areas make it the perfect spot to catch up with friends or get some work done.</p>
+          <span class="username">- David Thompson</span>
+        </div>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="feedback">
+          <p>I stumbled upon Coffee4All by chance, and I'm so glad I did. The coffee is exceptional, and the friendly staff make me feel right at home every time I visit. It's become my favorite spot for a quick caffeine fix or a leisurely afternoon.</p>
+          <span class="username">- Sarah Johnson</span>
+        </div>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="prev">&#8249;</button>
+      <button class="next">&#8250;</button>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>Coffee4All</h3>
+        <p>Enjoy the best coffee in town with a cozy atmosphere and great company.</p>
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-address">
+        <h3>Visit Us</h3>
+        <p>123 Main Street<br>City, State 12345</p>
+        <div class="map">
+          <iframe src="https://maps.google.com/maps?q=123%20Main%20Street%2C%20City%2C%20State%2012345&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Coffee4All. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="gsap.js"></script>
+</body>
+</html>
